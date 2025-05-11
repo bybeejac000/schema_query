@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/update', methods=['POST'])
 def update():
-    subprocess.run(['git', 'pull'], cwd='/home/ubuntu/flask')
+    subprocess.run(['git', 'pull'], cwd='/home/ubuntu/schema_query/python_backend')
     return 'Updated!', 200
 
 if __name__ == "__main__":

@@ -1,5 +1,5 @@
 import sys
-path = r'ubuntu/home/flask'
+path = r'/home/ubuntu/schema_query/python_backend'
 if path not in sys.path:
     sys.path.append(path)
 import library
