@@ -1,0 +1,49 @@
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*_pycache*/
+
+# Virtual environment
+venv/
+.env/
+.envrc
+*.env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# Compiled objects or shared libs
+*.so
+*.dll
+*.dylib
+*.o
+*.a
+
+# Log files
+*.log
+
+# Python specific
+*.egg-info/
+*.egg
+*.pkl
+*.db
+
+# Test output
+htmlcov/
+coverage.xml
+.cache/
+.nox/
+
+# ollama or model output
+models/
+*.gguf
+*.bin
+
+# Misc
+*.bak
