@@ -4,7 +4,6 @@
 # In[ ]:
 
 
-get_ipython().system('jupyter nbconvert --to script main_flask.ipynb')
 
 
 # In[5]:
