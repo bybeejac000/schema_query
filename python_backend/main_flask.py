@@ -5,9 +5,6 @@ if path not in sys.path:
 import library
 
 
-# In[ ]:
-
-
 from flask import Flask
 
 app = Flask(__name__)
