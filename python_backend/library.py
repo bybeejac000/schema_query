@@ -1,5 +1,5 @@
 
-def query(question, url="http://34.231.20.50:5000/question"):
+def query(question, url="http://52.204.141.248:5000/question"):
     import requests
     payload = {
         "model": "mistral:7b-instruct-q4_K_M",

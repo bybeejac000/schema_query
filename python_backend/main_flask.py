@@ -1,16 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
-
-# In[5]:
-
-
 import sys
-path = r'C:\Users\jakeb\Downloads\Schema_Query\python_backend\library.py'
+path = r'ubuntu/home/flask'
 if path not in sys.path:
     sys.path.append(path)
 import library
